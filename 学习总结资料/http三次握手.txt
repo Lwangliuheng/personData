@@ -1,0 +1,16 @@
+客户端：
+   syn = 1;
+   sep numder = 123456;
+
+服务器响应：
+   
+   ack = 1;
+   ack number = sep + 1;
+
+   syn = 1;
+   sep number = 5646123;
+
+客户端响应：
+
+   ack = 1；
+   ack number = 5646123+ 1;

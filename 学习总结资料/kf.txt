@@ -1,0 +1,24 @@
+1，git版本管理工具。
+2，代码打包工具webpack。
+3，本地服务器Node.js。
+
+
+
+react开发：
+ import React from 'react'
+ import ReactDOM from 'react-dom'
+ import { Router } from 'react-router-dom'
+ import createBrowserHistory from 'history/createBrowserHistory'
+ import 'qs' //处理url
+ //创造全局app，挂载全局方法
+ import app from 'app'
+ //全局是事件处理
+ import { Subject } from 'rxjs'
+ import 'antd'
+ import 'qs'
+ import 'localforage'
+ import 'moment'
+ import 'react-copy-to-clipboard'
+ //创建自定义可继承的class类
+ import BaseComponent from './BaseComponent'
+ import BaseModal from './BaseModal'

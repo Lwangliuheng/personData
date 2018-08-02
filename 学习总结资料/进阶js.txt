@@ -1,0 +1,15 @@
+//document.
+//         获取dom节点.
+//         创造dom节点.
+//                     获取dom节点的(父级节点，兄弟节点，子节点).
+//                                                                  
+// dom节点.
+//     
+//        筛选dom节点。
+//        操作dom节点。
+//        操作属性节点。
+//         （特殊属性节点：id，class，style）。
+//          css
+//         （scrollTop，scrollLeft，width，height，left，top）。
+//        事件。
+//        动画。                                         

@@ -1,0 +1,105 @@
+https://www.cnblogs.com/studyhtml5/p/7150576.html   extends
+https://www.cnblogs.com/lishuxue/p/6097575.html    extends与static 
+
+https://www.cnblogs.com/liutie1030/p/5997446.html    super
+http://es6.ruanyifeng.com/#docs/class-extends        对super分析比较透彻
+http://www.jb51.net/article/127076.htm               class类的get与set用法实例分析
+
+// 类（Class）
+// 基本语法
+
+class person {
+   constructor(){
+    this.name = "wang"
+　 }
+　says(){
+　　console.log(this.name)
+　}
+}
+var Wang = new person();
+Wang.says();// wang this关键字则代表实例化对象
+
+//继承（Extends）
+class Foo {
+   constructor(){
+    this.Fname = "Foo"
+    this.total();
+　 }
+  //静态函数   加上static关键字，就表示该方法不会被实例继承，而是直接通过类来调用，这就称为“静态方法”
+  //既:可以直接在Foo类上调用（Foo.classMethod()），而不是在Foo类的实例上调用。
+  static classMethod() {
+        return 'hello';
+  }
+　FooSays(){
+　　console.log(this.Fname)
+　}
+  total(){
+    console.log(555555555)
+  } 
+}
+
+class Child extends Foo{
+  constructor(){
+    super(); // 子类必须在constructor方法中调用super方法，否则新建实例时会报错。
+            //这是因为子类没有自己的this对象，而是继承父类的this对象，然后对其进行加工。
+            //如果不调用super方法，子类就得不到this对象。
+    this.Cname = "Child"
+　 }
+　ChildSays(){
+　　console.log(this.Cname)
+　}
+ total(){
+    console.log(66666666)
+ }
+}
+var foo = new Foo(); //5555555555555
+var child = new Child();//66666666666
+
+//等价于
+class Child extends Foo{
+  constructor(){
+
+    //继承过来的
+    this.Fname = "Foo" // 继承过来的 
+    this.total();      // 继承过来的 (类比react里面的生命周期函数的调用，都是在PureComponent类里面提前定义好的)
+
+    //原有的
+    this.Cname = "Child"
+　 }
+   
+   //继承过来的
+   static classMethod() {
+        return 'hello';
+   }
+   FooSays(){   // 继承过来的
+　　console.log(this.Fname)
+　}
+  total(){     // 继承过来的
+    console.log(555555555)
+  }  
+
+  //原有的
+　ChildSays(){
+　　console.log(this.Cname)
+　}
+  total(){ //会把上面继承过来的total给覆盖掉。
+   console.log(66666666)
+  }    
+}
+
+
+
+
+super
+ 
+   第一种情况：super在子类的constructor函数中，代表父类的构造函数。
+  （既调用super（）等价于条用父类的constructor 函数）
+   
+   第二种情况： super在普通方法中，指向父类的原型对象。
+   第三种情况： 在静态方法中，指向父类这个对象。
+
+
+static
+
+   ES6 明确规定，Class 内部只有静态方法，没有静态属性
+   目前有一个静态属性的提案，对实例属性和静态属性都规定了新的写法
