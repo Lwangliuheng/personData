@@ -1,0 +1,311 @@
+浏览器：
+    http://www.dailichun.com/2018/03/12/whenyouenteraurl.html                                   浏览器学习指导
+    https://www.jianshu.com/p/b00db2754cdf                                                      浏览器解析详解(明了)
+    https://www.cnblogs.com/lhb25/p/how-browsers-work.html                            浏览器解析详解(详细)
+    https://funteas.com/topic/5a64e9482630e6f31583701d                                          浏览器进程（一样的        http://www.dailichun.com/2018/01/21/js_singlethread_eventloop.html）
+    https://www.cnblogs.com/web-easy/p/5067680.html                                             浏览器解析过程
+    https://zhuanlan.zhihu.com/p/26105913?group_id=831106735610662912                           浅析浏览器渲染前端页面机制
+    https://m.th7.cn/show/20/201611/196661.html                                                 执行Js
+    https://www.zhihu.com/question/20531965/answer/15418794                                     <script> 标签引入脚本有三种情况
+    https://blog.csdn.net/yanxiaolx/article/details/51763372                                    进程线程
+   
+
+http：
+    https://www.zhihu.com/question/24002080/answer/31817536                                     OSI七层模型
+
+css：
+   http://www.jb51.net/css/12199.html                                                               盒模型
+   https://www.cnblogs.com/lidongfeng/p/7243650.html                                                css单位
+
+
+css3：
+
+   http://www.zhangxinxu.com/css3/                                                                  css3
+   http://www.w3school.com.cn/css3/css3_transition.asp                                              css3
+   https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Media_queries                             @madia
+   https://www.w3cplus.com/css3/pseudo-class-selector                                               css3伪类
+
+
+移动开发：
+
+    http://blog.csdn.net/yzbben/article/details/60766994                                            移动虚拟键盘抬起布局变乱解决方案
+    
+
+
+js：
+
+   http://blog.csdn.net/A_dangdang/article/details/50986168                                         call apply bind
+   https://m.genshuixue.com/wenda/6780907.html                                                      语句与表达式                                              
+   https://www.thinksaas.cn/ask/question/28409/                                                     语句与表达式
+   https://zhidao.baidu.com/question/583316301.html                                                 src与href
+   https://www.cnblogs.com/lujun1949/p/6500654.html?utm_source=itdadao&utm_medium=referral          src与href
+
+
+闭包与解析：
+   
+   https://zm12.sm-tc.cn/?src=l4uLj8XQ0IiIiNGckZ2TkJiM0ZyQktCTlpuQkZickdCejYuWnJOajNDLy8bOyc7I0ZeLkpM%3D&uid=23bebac50a1f60726fb663efdff4acb8&hid=02c277fbf7d15128dd47909356b6cfcd&pos=2&cid=9&time=1521193594100&from=click&restype=1&pagetype=0000000000000408&bu=web&query=%E4%B8%80%E4%B8%AA%E9%A1%B5%E9%9D%A2%E4%BB%8E%E8%BE%93%E5%85%A5+URL+%E5%88%B0%E9%A1%B5%E9%9D%A2%E5%8A%A0%E8%BD%BD%E6%98%BE%E7%A4%BA%E5%AE%8C%E6%88%90%EF%BC%8C%E8%BF%99%E4%B8%AA%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%83%BD%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88%EF%BC%9F&mode=&v=1&force=true&wap=false&province=%E5%8C%97%E4%BA%AC%E5%B8%82&city=%E5%8C%97%E4%BA%AC%E5%B8%82&uc_param_str=dnntnwvepffrgibijbprsvdsdichei     输入浏览器的工作
+   https://m.jb51.net/softjc/67746.html                                                             浏览器都有哪些东西
+   http://blog.csdn.net/qq_22855325/article/details/72958345                                        js单线程，异步与同步的区别                        
+   https://zm12.sm-tc.cn/?src=l4uLj4zF0NCIiIjRnJGdk5CYjNGckJLQhZeIk9CP0MvJycvJz8vRl4uSkw%3D%3D&uid=23bebac50a1f60726fb663efdff4acb8&hid=24847867d77366b88be70df889e3e009&pos=3&cid=9&time=1521077140704&from=click&restype=1&pagetype=0020004000000402&bu=news_natural&query=js%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E6%9C%BA%E5%88%B6&mode=&v=1&force=true&wap=false&uc_param_str=dnntnwvepffrgibijbprsvdsdichei     优化垃圾回收机制
+   https://zm12.sm-tc.cn/?src=l4uLj8XQ0JLRlZ3KztGRmovQno2LlpyTmtDIys3GzdGXi5I%3D&uid=23bebac50a1f60726fb663efdff4acb8&hid=24847867d77366b88be70df889e3e009&pos=2&cid=9&time=1521077140703&from=click&restype=1&pagetype=0080004002000402&bu=structure_web_info&query=js%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E6%9C%BA%E5%88%B6&mode=&v=1&force=true&wap=false&uc_param_str=dnntnwvepffrgibijbprsvdsdichei             垃圾回收机制
+   https://zm12.sm-tc.cn/?src=l4uLj8XQ0IiIiNGckZ2TkJiM0ZyQktCGkIqHlpHQno2LlpyTmozQy87PzcfHzNGejI%2BH&uid=23bebac50a1f60726fb663efdff4acb8&hid=d9d2c78c54056ee8620d0523c08e1cb9&pos=2&cid=9&time=1521079713155&from=click&restype=1&pagetype=0000004000000402&bu=news_natural&query=%E7%BA%BF%E7%A8%8B%E4%B8%8E%E6%A0%88&mode=&v=1&force=true&wap=false&uc_param_str=dnntnwvepffrgibijbprsvdsdichei                   多线程中 堆和栈的区别
+   https://zm12.sm-tc.cn/?src=l4uLj4zF0NCFl5abnpDRnZ6Wm4rRnJCS0I6KmoyLlpCR0MzMzsjIzM3Jy9GXi5KT&uid=23bebac50a1f60726fb663efdff4acb8&hid=32b20b692d8260fb18747949e711be4f&pos=1&cid=9&time=1521080850433&from=click&restype=1&pagetype=0020000002000402&bu=structure_qna&query=%E4%BB%80%E4%B9%88%E6%98%AF%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B2&mode=&v=1&force=true&wap=false&uc_param_str=dnntnwvepffrgibijbprsvdsdichei  内存泄露
+   http://blog.csdn.net/bdss58/article/details/51475778                                             闭包引发的内存泄露
+
+
+mvvm：
+   
+   https://www.cnblogs.com/jinguangguo/p/3534422.html                                               mvc
+   https://www.jianshu.com/p/6aeeecd64dcf                                                           mvc与mvvm
+   http://blog.csdn.net/chun_long/article/details/52086565                                          MVVM简介与运用
+
+
+js模块化开发：
+
+    https://segmentfault.com/a/1190000003780523#articleHeader0                                        模块化开发
+    http://blog.csdn.net/weiyastory/article/details/54344936                                          目前模块化开发打包工具
+    http://www.jb51.net/article/53823.htm                                                             面向对象开发
+    
+    require：
+
+    http://www.ruanyifeng.com/blog/2012/11/require_js.html                                            阮一峰模块化重点require开发
+    http://www.oschina.net/translate/optimize-requirejs-projects                                      require合并
+    
+    sea.js： 
+
+    http://www.cnblogs.com/ada-zheng/p/4330506.html                                                   sea.js原理
+    http://www.jianshu.com/p/ebdf2233e3fe                                                             sea.js原理
+    http://www.360doc.com/content/14/0806/16/11991_399875415.shtml                                    sea.js原理
+    http://yslove.net/seajs/                                                                          sea.js原理 全
+    http://www.tuicool.com/articles/VZFNjyN                                                           sea.js自动添加非CMD规范的模块
+    http://blog.csdn.net/jobjava/article/details/42646557                                             sea.js手动添加非CMD规范的模块
+    http://blog.csdn.net/jobjava/article/details/42646467                                             sea.js添加非CMD规范的模块
+    http://yslove.net/actjs/assets/sea-modules/seajs/2.1.1/sj.js                                      seajs线上引用网址
+    
+    webpack：
+    
+    https://www.zhihu.com/question/39290543                                                                   webpack搭建项目详解
+    http://www.runoob.com/w3cnote/webpack-tutorial.html                                               webpack原理
+    http://blog.csdn.net/qq_24122593/article/details/53096437                                         webpack原理
+    https://www.jianshu.com/p/42e11515c10f                                                            webpack入门
+    http://blog.csdn.net/keliyxyz/article/details/51527476                                            Webpack进阶 （Webpack各个配置全解） 
+    http://www.css88.com/doc/webpack2/configuration/resolve/                                          Webpack进阶 （Webpack各个配置全解，看“第三部分”里的“配置”）
+    https://www.cnblogs.com/samli15999/p/7047968.html                                             externals                                      
+  
+
+扫一扫
+
+   http://www.cnblogs.com/yisuowushinian/p/5145262.html                                                扫一扫
+   https://blog.csdn.net/porcelain_cs/article/details/72794393                                         扫一扫
+
+
+js生成二维码：
+
+    http://www.jb51.net/article/77037.htm 
+    https://davidshimjs.github.io/qrcodejs/ 
+
+
+js时间格式化：
+
+    http://www.cnblogs.com/zhanghaoliang/p/5997619.html                                                时间格式化
+
+
+js文字复制到剪贴板 兼容所有主流浏览器：
+
+    http://zeroclipboard.org/                                                                          文字复制到剪贴板 兼容所有主流浏览器
+    http://www.365mini.com/page/zeroclipboard-2_x-quick-start.htm
+    http://www.jb51.net/article/22403.htm
+    http://www.cnblogs.com/tylerdonet/p/4533782.html 
+
+
+js富文编译器：
+ 
+    http://ueditor.baidu.com/website/onlinedemo.html                                                   编译器
+    http://ueditor.baidu.com/website/download.html                                                     编译器
+
+
+js登录原理：
+
+    http://blog.csdn.net/wabiaozia/article/category/6085536                                            前端问题
+    http://www.cnblogs.com/xiekeli/p/5607107.html http
+    http://www.cnblogs.com/sunshine-2015/p/5515429.html
+    http://blog.csdn.net/woshihaiyong168/article/details/52857479                                       Token验证
+                                 
+
+
+canvas：
+
+    http://www.runoob.com/html/html5-canvas.html                                                        canvas画布
+    https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Tutorial/Drawing_text                   canvas API
+    https://developer.mozilla.org/zh-CN/docs/Web/API/CanvasRenderingContext2D/beginPath
+    https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLCanvasElement/toDataURL
+
+
+form表单上传：
+
+    http://www.cnblogs.com/jarson-7426/p/5191156.html                                                   nagularjs FileUploader服务插件
+    http://fex.baidu.com/webuploader/doc/#WebUploader                                                   Uploader_options webupload插件
+    http://www.haorooms.com/post/input_file_leixing                                                     真实上传文件到后端
+    http://www.cnblogs.com/cai-rd/p/3930227.html                                                        不支持file发送文件的插件
+    http://m.blog.csdn.net/article/details?id=51915742                                                  表单上传（手机端打开）
+    http://www.cnblogs.com/zichi/p/html5-file-api.html                                                  file的使用。
+
+es6：
+
+    http://www.cnblogs.com/huansky/p/5684867.html                                                       箭头函数
+    https://segmentfault.com/a/1190000007685095                                                         promise对象
+    http://www.ruanyifeng.com/blog/computer/                                                            阮一峰博客
+    http://es6.ruanyifeng.com/#docs/promise                                                             阮一峰ES6    
+    https://www.cnblogs.com/studyhtml5/p/7150576.html                                                   class里面的继承extends
+    https://www.cnblogs.com/lishuxue/p/6097575.html                                                     class里面的extends与static 
+    https://www.cnblogs.com/liutie1030/p/5997446.html                                                   class里面的super
+    https://www.cnblogs.com/xiaoli52qd/p/7392700.html                                                   es5数组reduce    
+
+
+H5：
+
+    https://www.zhihu.com/question/20215561                                                             webstocket
+    http://www.zhangxinxu.com/wordpress/2010/03/every-browser-support-html5-video/                      video
+    https://www.zhihu.com/question/36423771                                                             video
+    http://www.runoob.com/html/html5-websocket.html                                                     websocket
+
+
+object方法属性：
+ 
+    http://blog.csdn.net/wlwanglu/article/details/52253002                                              object方法属性
+    https://segmentfault.com/a/1190000007434923                                                         Object.defineProperty的作用
+
+
+Data用法：
+  
+    http://blog.csdn.net/icanlove/article/details/21989339/                                             Data对象
+
+
+Function：
+
+    http://blog.csdn.net/ganyingxie123456/article/details/70855586                                      call与apply的区别
+
+
+jq：
+
+    http://www.w3school.com.cn/jquery/jquery_traversing_descendants.asp                                文档jq
+    http://hemin.cn/jq/index.html                                                                      文档jq
+    http://www.jquery123.com/                                                                          jq
+    http://jquery.com/               
+    http://www.codesec.net/view/54614.html                                                             jq选择器
+    http://www.jq-school.com/Article.aspx?page=3                                                       jq插件
+    http://www.jq22.com/                                                                               jq插件
+    http://libs.baidu.com/jquery/2.0.0/jquery.js                                                       jq线上引用地址
+
+
+zepto其他模块：
+
+    http://www.jb51.net/article/77037.htm
+
+
+公众号：
+
+    https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421141016                                 官网
+    https://www.w3cschool.cn/weixinkaifawendang/jxt31qci.html                                         w3c 
+    http://www.cnblogs.com/yank/p/3406308.html   
+    https://www.jianshu.com/p/bb88f7520b9e                                                            JSSDK的使用
+     
+
+微信小程序：
+    
+     http://www.mamicode.com/info-detail-1671275.html                                                  小程序
+     http://www.w3cschool.cn/weixinapp/9wou1q8j.html                                                   小程序
+     https://mp.weixin.qq.com/debug/wxadoc/dev/index.html                                              小程序 （主要看同上）
+     http://m.blog.csdn.net/article/details?id=54340608                                                小程序上传问题
+     http://www.see-source.com/weixinwidget/detail.html?wid=135                                        小程序echart
+     https://github.com/xiaolin3303/wx-charts/issues/57                                                小程序echartgithub文档
+     https://github.com/xiaolin3303/wx-charts/issues/56                                                小程序echartgithub文档
+     http://www.qingpingshan.com/rjbc/ios/205209.html                                                  下拉刷新坑
+     http://www.wxapp-union.com/forum.php?mod=viewthread&tid=1909                                      小程序ios与安卓不能正常显示
+     https://www.zhihu.com/question/52852717                                                           小程序canvas坑
+     https://www.jianshu.com/p/8a2a730d9e60                                                            小程序组件的使用     
+
+
+全栈：
+
+    https://github.com/ruanyf/jstraining/blob/master/demos/README.md#backbone                          全栈
+
+
+node.js：
+
+    http://nodejs.cn/api/crypto.html   node.js
+    http://www.runoob.com/nodejs/nodejs-npm.html node.js
+    http://www.w3cschool.cn/nodejs/v9c81itv.html
+    https://www.nodebeginner.org/index-zh-cn.html
+
+npm：
+
+    http://blog.csdn.net/chszs/article/details/50986354                                                npm使用指南
+
+
+angular：
+
+    http://www.runoob.com/angularjs/angularjs-tutorial.html                                            教程
+    http://blog.csdn.net/dm_vincent/article/details/38705099                                           $apply原理
+    http://www.cnblogs.com/darrenji/p/4981008.html                                                     ng-router和ng-ui-router介绍
+    http://www.cnblogs.com/liangliangjiang/p/6672228.html                                              angular$scope生命周期
+
+
+react：
+
+    http://www.react-cn.com/downloads.html                                                             react下载以及学习
+    http://blog.csdn.net/zhuzhiqiang_zhu/article/details/53505892                                      react与webpack的配置
+    http://www.jianshu.com/p/71adc4c903e6                                                              react的es6书写
+    http://www.ruanyifeng.com/blog/2007/11/mvc.html                                                    MVC阮一峰
+    http://www.react-cn.com/docs/getting-started.html                                                  react
+    http://www.css88.com/react/docs/thinking-in-react.html                                             react中文文档
+    https://zhuanlan.zhihu.com/p/24926575                                                              react生命周期
+    http://www.jianshu.com/p/9a60bedd0aa9                                                             手工配react+webpack+es6
+    http://blog.csdn.net/adzcsx2/article/details/52993633                                             脚手架yo 
+    https://segmentfault.com/a/1190000006055973                                                       脚手架create-react-app 
+    http://blog.csdn.net/haoshidai/article/details/52244620                                           es6写法
+    http://618cj.com/react-router4-0%E8%B7%AF%E7%94%B1%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3api/        react-router 4.0中文文档
+    http://blog.csdn.net/sinat_17775997/article/details/77411324                                      react-router 4.0讲解
+    http://blog.csdn.net/lihongxun945/article/details/49031383                                        es6导入导出
+    https://segmentfault.com/a/1190000003810652                                                       fetch坑
+    http://www.cnblogs.com/diligenceday/p/5503777.html                                                import
+    http://wiki.jikexueyuan.com/project/react-tutorial/mixin.html                                     react中的Mixins    
+    https://www.jianshu.com/p/33cda0dc316a                                                            react中的PureComponent    
+    https://www.cnblogs.com/Unknw/p/6431375.html                                                      React Component的几种方式
+
+    调用super的原因：在ES6中，在子类的constructor中必须先调用super才能引用this。
+    super(props)的目的：在constructor中可以使用this.props。
+
+    https://yq.aliyun.com/articles/69516                                                             immutable Api
+    https://segmentfault.com/a/1190000002909224                                                      immutable 中使用Map与fromJS的区别
+    http://cn.rx.js.org/manual/installation.html                                                     Rxjs文档
+    https://segmentfault.com/a/1190000008464065                                                      Rxjs讲解
+    https://www.cnblogs.com/LSSSunshine/p/7340573.html                                               qs
+    https://segmentfault.com/a/1190000010063220                                                      React之setState的正确打开方式
+    http://www.lupaworld.com/article-262859-1.html                                                   setState函数
+
+
+vue：
+    
+    http://web.jobbole.com/88870/                                                                    Vue 双向数据绑定原理分析
+    http://www.cnblogs.com/pearl07/p/6252116.html                                                    vue-cil
+    http://www.jianshu.com/p/1626b8643676                                                            vue搭建 http://www.cnblogs.com/wisewrong/p/6255817.html
+    http://blog.csdn.net/zhumengzj/article/details/72783591                                          vue-cli安装失败解决方案
+    http://www.oschina.net/question/12_44255?sort=default&p=4                                        CSS 预处理器（框架）：Sass、LESS 和 Stylus
+    http://www.jb51.net/article/111046.htm                                                           vue引用其他组件
+    http://blog.csdn.net/ansu2009/article/details/53305134                                           vue引用jq bootstrap
+    http://blog.csdn.net/nongweiyilady/article/details/53611094                                      bootstrap图片无法显示
+    http://m.jb51.net/article/119342.htm                                                             axios 的安装
+    https://segmentfault.com/q/1010000010425538?sort=created                                         vue_axios的作用
+    https://zhuanlan.zhihu.com/p/33918784                                                            vue_axios的好处
+    https://www.cnblogs.com/axl234/p/5899137.html                                                    vue-resource的使用
+    https://segmentfault.com/a/1190000008010666                                                      vue生命周期
+    http://m.blog.csdn.net/Tank_in_the_street/article/details/72964979                               $on与$emit
+    http://blog.csdn.net/u013861109/article/details/52429819                                         vue通过Object.defineProperty实现双向绑定
+    https://segmentfault.com/q/1010000009900181                                                      vuex module命名空间后的调用
+    https://vuex.vuejs.org/zh-cn/actions.html                                                        vuex讲解
+    https://www.cnblogs.com/xiaohuochai/p/7388866.html                                               vue的props写法
+    http://blog.csdn.net/gao_xu_520/article/details/76020365     
+    https://blog.csdn.net/Air_hjj/article/details/77374920                                           Vue-webpack项目配置详解  
+    https://blog.csdn.net/FungLeo/article/details/53171052                                           vue-cil                   
+    
