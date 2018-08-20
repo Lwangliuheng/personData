@@ -2,7 +2,6 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const webpack = require('webpack')
 // const path = require('path')
-// 
 console.log("process.env.NODE_ENV 的值是(webpack.config.js)："+ process.env.NODE_ENV)
 module.exports = {
   // entry: './src/app.js',
