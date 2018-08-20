@@ -167,6 +167,7 @@ H5£º
     https://www.zhihu.com/question/20215561                                                             webstocket
     http://www.zhangxinxu.com/wordpress/2010/03/every-browser-support-html5-video/                      video
     https://www.zhihu.com/question/36423771                                                             video
+    http://caibaojian.com/video-screenfull.html#10006-weixin-1-52626-6b3bffd01fdde4900130bc5a2751b6d1    videoÈ«ÆÁ¼æÈÝ
     http://www.runoob.com/html/html5-websocket.html                                                     websocket
 
 
