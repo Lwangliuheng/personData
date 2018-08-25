@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>react生命周期</title>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+  </head>
+  <body>
+    <div id="example"></div>
+    <script type="text/babel">
+     var FnotesList = React.createClass({
+
+           getDefaultProps:function(){
+              console.log("父1getDefaultProps")
+           },
+           
+           getInitialState:function(){
+               console.log("父2getInitialState")
+              return {liked: [1,2,3,4]}
+           },
+
+           componentWillMount:function(){
+                console.log("父3componentWillMount")
+           },
+
+           componentDidMount:function(){
+                console.log("父4componentDidMoun")
+          },
+
+          componentWillReceiveProps:function(){
+               console.log("父5componentWillReceiveProps")
+          },
+
+         shouldComponentUpdate:function(nextProps,nextState){
+       
+         
+                  console.log("父6shouldComponentUpdate");
+                  return true;
+          }, 
+
+         componentWillUpdate:function(){
+                  console.log("父7componentWillUpdate")
+         }, 
+
+        componentDidUpdate:function(){
+              console.log("父8componentDidUpdate")
+        }, 
+
+       componentWillUnmount:function(){
+              console.log("父9componentWillUnmount")
+       },
+       render: function() {
+          console.log("父10render")
+          return (
+            <div>
+               <ol>父级11111111</ol>
+               <div onClick={this.show} >父级22222222222</div>
+              <ZnotesList title={this.state.liked}></ZnotesList>
+            </div>
+            
+          );
+        },
+
+      show:function(){
+        this.setState({liked: "liu"});
+         console.log("父级");
+         this.setState({liked:[5,6,7,8,9]});
+        }
+        
+      });
+
+
+
+
+
+       var ZnotesList = React.createClass({
+
+           getDefaultProps:function(){
+              console.log("子1getDefaultProps")
+           },
+           
+           getInitialState:function(){
+               console.log("子2getInitialState")
+              return {liked: "wang"}
+           },
+
+           componentWillMount:function(){
+                console.log("子3componentWillMount")
+           },
+
+           componentDidMount:function(){
+                console.log("子4componentDidMoun")
+          },
+
+          componentWillReceiveProps:function(nextProps){
+               console.log(nextProps)
+               console.log("子5componentWillReceiveProps")
+          },
+
+         shouldComponentUpdate:function(nextProps,nextState){
+       
+         
+                  console.log("子6shouldComponentUpdate");
+                  return true;
+          }, 
+
+         componentWillUpdate:function(){
+                  console.log("子7componentWillUpdate")
+         }, 
+
+        componentDidUpdate:function(){
+              console.log("子8componentDidUpdate")
+        }, 
+
+       componentWillUnmount:function(){
+              console.log("子9componentWillUnmount")
+       },
+       render: function() {
+          console.log("子10render")
+          return (
+            <div>
+               <ol>子级11111111</ol>
+                 {
+                  this.props.title.map(function(value, index){
+                   return <li className="item" key={index}>{value}</li>    
+                     })
+                 }
+               <div onClick={this.show} >子级22222222222</div>
+               
+            </div>
+            
+          );
+        },
+
+      show:function(){
+        this.setState({liked: "liu"});
+         console.log("子级");
+         //this.props.title = [10,11,12,13];
+         //console.log(this.props.title)
+        }
+        
+      });
+
+       var XnotesList = React.createClass({
+
+           getDefaultProps:function(){
+              console.log("兄1getDefaultProps")
+           },
+           
+           getInitialState:function(){
+               console.log("兄2getInitialState")
+              return {liked: "wang"}
+           },
+
+           componentWillMount:function(){
+                console.log("兄3componentWillMount")
+           },
+
+           componentDidMount:function(){
+                console.log("兄4componentDidMoun")
+          },
+
+          componentWillReceiveProps:function(nextProps){
+               console.log(nextProps)
+               console.log("兄5componentWillReceiveProps")
+          },
+
+         shouldComponentUpdate:function(nextProps,nextState){
+       
+         
+                  console.log("兄6shouldComponentUpdate");
+                  return true;
+          }, 
+
+         componentWillUpdate:function(){
+                  console.log("兄7componentWillUpdate")
+         }, 
+
+        componentDidUpdate:function(){
+              console.log("兄8componentDidUpdate")
+        }, 
+
+       componentWillUnmount:function(){
+              console.log("兄9componentWillUnmount")
+       },
+       render: function() {
+          console.log("兄10render")
+          return (
+            <div>
+               <ol>兄级11111111</ol>
+               <div onClick={this.show} >兄级22222222222</div>
+               
+            </div>
+            
+          );
+        },
+
+      show:function(){
+        this.setState({liked: "liu"});
+         console.log("兄级");
+        }
+        
+      });
+     
+
+      ReactDOM.render(
+       <div>
+           <FnotesList />
+           <XnotesList></XnotesList>
+       </div>,
+       document.getElementById('example')
+     );
+
+    </script>
+  </body>
+</html>
+

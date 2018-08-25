@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vue生命周期</title>
+</head>
+<script type="text/javascript" src="js/vue.js"></script>
+<script type="text/javascript" src="js/vue-router.js"></script>
+<body>
+   <div id="app">
+    <div>
+      <!--路由传递变量 :to="{path:value}"-->
+      <!--路由传递值 to=/home/20-->
+       <router-link :to="{path:'/home/'+age}">one</router-link>
+    </div>
+    <div>
+       <router-link to="/list">two</router-link>
+    </div>
+    <router-view></router-view>
+
+    <ul v-for="item in arr">
+      <li>{{item}}</li>
+    </ul>
+    <button style="width:50px;height:30px;background-color:green;border:0px solid #fff" v-on:click="get"></button>
+    <my-component ></my-component>
+   <!--  <my-componenttwo></my-componenttwo> -->
+    <!-- <you-component></you-component> -->
+   </div>
+	<script type="text/javascript">
+  //组件构造器
+   var home = {
+      template:'<div>2222222{{ $route.params.id }}<router-link to="/listone">three</router-link><router-view></router-view></div>'
+   };
+   var list = {
+      template:'<div>{{name}}</div>',
+      data:function(){
+      return {
+        name:'wang'
+      }
+    }
+   };
+   var listone = {
+      template:'<div>33333333</div>'
+   }
+   //组件构造器
+   /*var list = Vue.extend({
+     template: "<p>{{name}}</p>",
+     data:function(){
+      return {
+        name:'wang'
+      }
+     }
+   })*/
+   //全局的组件
+   var stor = {
+    template:'<div><div v-on:click="get">{{message[0]}}{{www}}</div><you-component v-bind:ame="message" v-bind:eee="www"></you-component></div>',
+    data: function () {
+    return {
+             message: [1,2,3,4],
+             www:'www',
+             qq:"wang"
+           }
+     },
+     //vue生命周期
+     // beforeCreate:function(){
+     //     console.log("父1beforeCreate")
+     // },
+     created :function(){
+     
+      console.log("父2created")
+      },
+      //  beforeMount :function(){
+      // console.log("父3beforeMount");
+      // },
+       mounted :function(){
+      console.log("父4mounted");
+      },
+      beforeUpdate :function(){
+      console.log("父5beforeUpdate");
+      },
+      // updated :function(){
+      // console.log("父6updated");
+      // },
+      // beforeDestroy :function(){
+      // console.log("父7beforeDestroy");
+      // },
+      // destroyed :function(){
+      // console.log("父8destroyed");
+      // },
+      methods:{
+          get:function(){
+               console.log(this.message,'f1');
+              this.message = [5,6,7,8,9];
+              this.www = 'qqqq';
+              console.log(this.message,'f2');
+          }
+        }
+   };
+   var stor1 = {
+    template:'<div v-on:click="get">{{ame[0]}}{{mes}}{{eee}}7777{{count}}</div>',
+    props: ['ame',"eee"],
+    data: function () {
+    return {
+             mes:this.eee
+           }
+     },
+     //  beforeCreate:function(){
+     //     console.log("子1beforeCreate")
+     // },
+     created :function(){
+      console.log("子2created")
+      },
+      //  beforeMount :function(){
+      // console.log("子3beforeMount");
+      // },
+       mounted :function(){
+      console.log("子4mounted");
+      },
+      beforeUpdate :function(){
+      console.log("子5beforeUpdate");
+      },
+      // updated :function(){
+      // console.log("子6updated");
+      // },
+      // beforeDestroy :function(){
+      // console.log("子7beforeDestroy");
+      // },
+      // destroyed :function(){
+      // console.log("子8destroyed");
+      // },
+     computed: {
+
+         count () {
+           
+            return this.ame.length
+          }
+      },
+      methods:{
+          get:function(){
+             console.log(this.ame,"z1");
+             /* console.log(this.a);*/
+             /* this.mes = "liu";*/
+              this.ame = [7,8,9,10,11];
+              console.log(this.ame,"z2");
+          }
+        }
+    };
+    var stor11 = {
+    template:'<div>111111</div>',
+    data: function () {
+    return {
+             mes:222222
+           }
+     },
+     beforeCreate:function(){
+         console.log("兄1beforeCreate")
+     },
+     created :function(){
+      console.log("兄2created")
+      },
+       beforeMount :function(){
+      console.log("兄3beforeMount");
+      },
+       mounted :function(){
+      console.log("兄4mounted");
+      },
+      beforeUpdate :function(){
+      console.log("兄5beforeUpdate");
+      },
+      updated :function(){
+      console.log("兄6updated");
+      },
+      beforeDestroy :function(){
+      console.log("兄7beforeDestroy");
+      },
+      destroyed :function(){
+      console.log("兄8destroyed");
+      },
+     computed: {
+
+         count () {
+           
+            return this.ame.length
+          }
+      },
+      methods:{
+          get:function(){
+              console.log(this.ame);
+             /* console.log(this.a);*/
+              this.mes = "liu"
+          }
+        }
+    };
+   Vue.component('my-component',stor);
+   Vue.component('you-component',stor1);
+   Vue.component('my-componenttwo',stor11);
+   var routes = [
+            /*嵌套路由*/
+           /*路由传递值 {path:'/home/:id',component:home}*/
+           { path: '/home/:id', component: home ,children:[
+                   {
+                    path: '/listone', component: listone 
+                   }
+              ]
+           },
+           /*普通路由*/
+           { path: '/list', component: list}
+        ];
+
+   var  router = new VueRouter({
+        routes 
+      });
+
+   var app = new Vue({
+       el:'#app',
+       data:{
+        age:19,
+        arr:[1,2,3,4,5,6,7,8,9]
+       },
+
+       router:router,
+
+        methods:{
+          get:function(){
+            /* 错误做法*/
+            /* this.arr[2] = 8;
+             this.arr[9] = 10;*/
+            /* 正确做法1*/
+            this.$set(this.arr,2,8);
+            this.$set(this.arr,9,10);
+            /* 正确做法2*/
+            //this.arr = [1,8,3,4,5,6,7,8,9,10];
+             console.log(this.arr);
+          }
+        }
+    });
+      /*function formatDegree(value) {  
+        value = Math.abs(value);  
+        var v1 = Math.floor(value);//度  
+        var v2 = ((value - v1) * 60).toFixed(2);//分  
+        var v3 = Math.round((value - v1) * 3600 % 60);//秒  
+        return v1 + '°' + v2 + '\'' + 'N';  
+    }; 
+    console.log(formatDegree(122.313835))*/
+	</script>
+</body>
+</html>

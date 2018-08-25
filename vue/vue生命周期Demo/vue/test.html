@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vue</title>
+</head>
+<script type="text/javascript" src="js/vue.js"></script>
+<script type="text/javascript" src="js/vuex.js"></script>
+<!-- <script type="text/javascript" src="js/vue-router.js"></script> -->
+<body>
+   <div id="app">
+     <div v-on:click="get">{{count}}</div>
+     <my-component></my-component>
+   </div>
+	<script type="text/javascript">
+  var moduleA = {
+         state: {
+           fcount: [1,2,3,4,5,6,7,8],
+           zcount:6666666
+         },
+         mutations: {
+           ofincrement (state) {
+            console.log(1111111)
+             state.fcount.push(7);
+           },
+           zincrement (state) {
+             state.zcount += 2
+           }
+         }
+  };
+  var moduleB = {
+         state: {
+           fcount: [9,8,7,6,5,4,3,2,1],
+           zcount:7777777
+         },
+        
+         mutations: {
+           tfincrement (state) {
+            console.log(22222)
+             state.zcount += 1
+           },
+           zincrement (state) {
+             state.zcount += 2
+           }
+         }
+  };
+  
+  const store = new Vuex.Store({
+       modules: {
+        a: moduleA,
+        b: moduleB
+      }
+  })
+ /* var store = new Vuex.Store({
+     //状态库，状态改变-----使用该状态的组件调用render()----Diff();的视图就刷新
+      state: {
+        fcount: [1,2,3,4,5,6,7,8],
+        zcount:6666666,
+        aa:function(){
+    
+        },
+      },
+      getters: {
+       doneTodosCount: function(state,getters){
+          return state.fcount.length
+        }
+      },
+      mutations: {
+        fincrement (state) {
+          state.fcount.push(7);
+        },
+        zincrement (state) {
+          state.zcount += 2
+        }
+      }
+  });*/
+
+  var home = {
+     template:'<div v-on:click="show">子级{{change}}</div>',
+     data: function () {
+     return {
+             
+           }
+     },
+    computed: {
+
+         change () {
+            return this.$store.state.b.zcount
+          }
+    },
+     methods:{
+        show:function(){
+             this.$store.commit('tfincrement'); 
+          }
+    }
+  };
+
+
+  Vue.component('my-component',home);
+
+   var app = new Vue({
+       el:'#app',
+       data:{
+          message: 'Hello'
+       },
+       store,
+       //<div>{{count}}</div>与<div>{{this.$store.state.fcount.length}}</div>是等价的，render()调用后会执行。
+       computed: {
+
+         count () {
+            return this.$store.state.a.fcount.length
+          }
+        },
+        methods:{
+          get:function(){
+            this.$store.commit('ofincrement');
+          }
+        }
+    });
+     
+	</script>
+</body>
+</html>
