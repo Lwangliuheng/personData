@@ -38,33 +38,33 @@ js：
    https://m.genshuixue.com/wenda/6780907.html                                                      语句与表达式                                              
    https://www.thinksaas.cn/ask/question/28409/                                                     语句与表达式
    https://zhidao.baidu.com/question/583316301.html                                                 src与href
-   https://www.cnblogs.com/lujun1949/p/6500654.html?utm_source=itdadao&utm_medium=referral          src与href
+   http://c7.gg/a4aNf                                                                                                      src与href
 
 
 闭包与解析：
    
-   https://zm12.sm-tc.cn/?src=l4uLj8XQ0IiIiNGckZ2TkJiM0ZyQktCTlpuQkZickdCejYuWnJOajNDLy8bOyc7I0ZeLkpM%3D&uid=23bebac50a1f60726fb663efdff4acb8&hid=02c277fbf7d15128dd47909356b6cfcd&pos=2&cid=9&time=1521193594100&from=click&restype=1&pagetype=0000000000000408&bu=web&query=%E4%B8%80%E4%B8%AA%E9%A1%B5%E9%9D%A2%E4%BB%8E%E8%BE%93%E5%85%A5+URL+%E5%88%B0%E9%A1%B5%E9%9D%A2%E5%8A%A0%E8%BD%BD%E6%98%BE%E7%A4%BA%E5%AE%8C%E6%88%90%EF%BC%8C%E8%BF%99%E4%B8%AA%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%83%BD%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88%EF%BC%9F&mode=&v=1&force=true&wap=false&province=%E5%8C%97%E4%BA%AC%E5%B8%82&city=%E5%8C%97%E4%BA%AC%E5%B8%82&uc_param_str=dnntnwvepffrgibijbprsvdsdichei     输入浏览器的工作
-   https://m.jb51.net/softjc/67746.html                                                             浏览器都有哪些东西
+   http://c7.gg/a4aNy                                                                                                       输入浏览器的工作
+   https://m.jb51.net/softjc/67746.html                                                                            浏览器都有哪些东西
    http://blog.csdn.net/qq_22855325/article/details/72958345                                        js单线程，异步与同步的区别                        
-   https://zm12.sm-tc.cn/?src=l4uLj4zF0NCIiIjRnJGdk5CYjNGckJLQhZeIk9CP0MvJycvJz8vRl4uSkw%3D%3D&uid=23bebac50a1f60726fb663efdff4acb8&hid=24847867d77366b88be70df889e3e009&pos=3&cid=9&time=1521077140704&from=click&restype=1&pagetype=0020004000000402&bu=news_natural&query=js%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E6%9C%BA%E5%88%B6&mode=&v=1&force=true&wap=false&uc_param_str=dnntnwvepffrgibijbprsvdsdichei     优化垃圾回收机制
-   https://zm12.sm-tc.cn/?src=l4uLj8XQ0JLRlZ3KztGRmovQno2LlpyTmtDIys3GzdGXi5I%3D&uid=23bebac50a1f60726fb663efdff4acb8&hid=24847867d77366b88be70df889e3e009&pos=2&cid=9&time=1521077140703&from=click&restype=1&pagetype=0080004002000402&bu=structure_web_info&query=js%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E6%9C%BA%E5%88%B6&mode=&v=1&force=true&wap=false&uc_param_str=dnntnwvepffrgibijbprsvdsdichei             垃圾回收机制
-   https://zm12.sm-tc.cn/?src=l4uLj8XQ0IiIiNGckZ2TkJiM0ZyQktCGkIqHlpHQno2LlpyTmozQy87PzcfHzNGejI%2BH&uid=23bebac50a1f60726fb663efdff4acb8&hid=d9d2c78c54056ee8620d0523c08e1cb9&pos=2&cid=9&time=1521079713155&from=click&restype=1&pagetype=0000004000000402&bu=news_natural&query=%E7%BA%BF%E7%A8%8B%E4%B8%8E%E6%A0%88&mode=&v=1&force=true&wap=false&uc_param_str=dnntnwvepffrgibijbprsvdsdichei                   多线程中 堆和栈的区别
-   https://zm12.sm-tc.cn/?src=l4uLj4zF0NCFl5abnpDRnZ6Wm4rRnJCS0I6KmoyLlpCR0MzMzsjIzM3Jy9GXi5KT&uid=23bebac50a1f60726fb663efdff4acb8&hid=32b20b692d8260fb18747949e711be4f&pos=1&cid=9&time=1521080850433&from=click&restype=1&pagetype=0020000002000402&bu=structure_qna&query=%E4%BB%80%E4%B9%88%E6%98%AF%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B2&mode=&v=1&force=true&wap=false&uc_param_str=dnntnwvepffrgibijbprsvdsdichei  内存泄露
-   http://blog.csdn.net/bdss58/article/details/51475778                                             闭包引发的内存泄露
+   http://c7.gg/a4aNH                                                                                                        优化垃圾回收机制
+   http://c7.gg/a4aNY                                                                                                        垃圾回收机制
+   http://c7.gg/a4aPw                                                                                                        多线程中 堆和栈的区别
+   http://c7.gg/a4aPE                                                                                                         内存泄露
+   http://blog.csdn.net/bdss58/article/details/51475778                                                   闭包引发的内存泄露
 
 
 mvvm：
    
    https://www.cnblogs.com/jinguangguo/p/3534422.html                                               mvc
-   https://www.jianshu.com/p/6aeeecd64dcf                                                           mvc与mvvm
-   http://blog.csdn.net/chun_long/article/details/52086565                                          MVVM简介与运用
+   https://www.jianshu.com/p/6aeeecd64dcf                                                                      mvc与mvvm
+   http://blog.csdn.net/chun_long/article/details/52086565                                               MVVM简介与运用
 
 
 js模块化开发：
 
-    https://segmentfault.com/a/1190000003780523#articleHeader0                                        模块化开发
-    http://blog.csdn.net/weiyastory/article/details/54344936                                          目前模块化开发打包工具
-    http://www.jb51.net/article/53823.htm                                                             面向对象开发
+    https://segmentfault.com/a/1190000003780523#articleHeader0                                   模块化开发
+    http://blog.csdn.net/weiyastory/article/details/54344936                                               目前模块化开发打包工具
+    http://www.jb51.net/article/53823.htm                                                                            面向对象开发
     
     require：
 
@@ -74,23 +74,23 @@ js模块化开发：
     sea.js： 
 
     http://www.cnblogs.com/ada-zheng/p/4330506.html                                                   sea.js原理
-    http://www.jianshu.com/p/ebdf2233e3fe                                                             sea.js原理
+    http://www.jianshu.com/p/ebdf2233e3fe                                                                       sea.js原理
     http://www.360doc.com/content/14/0806/16/11991_399875415.shtml                                    sea.js原理
-    http://yslove.net/seajs/                                                                          sea.js原理 全
-    http://www.tuicool.com/articles/VZFNjyN                                                           sea.js自动添加非CMD规范的模块
-    http://blog.csdn.net/jobjava/article/details/42646557                                             sea.js手动添加非CMD规范的模块
-    http://blog.csdn.net/jobjava/article/details/42646467                                             sea.js添加非CMD规范的模块
-    http://yslove.net/actjs/assets/sea-modules/seajs/2.1.1/sj.js                                      seajs线上引用网址
+    http://yslove.net/seajs/                                                                                                    sea.js原理 全
+    http://www.tuicool.com/articles/VZFNjyN                                                                      sea.js自动添加非CMD规范的模块
+    http://blog.csdn.net/jobjava/article/details/42646557                                                   sea.js手动添加非CMD规范的模块
+    http://blog.csdn.net/jobjava/article/details/42646467                                                   sea.js添加非CMD规范的模块
+    http://yslove.net/actjs/assets/sea-modules/seajs/2.1.1/sj.js                                           seajs线上引用网址
     
     webpack：
     
     https://www.zhihu.com/question/39290543                                                                   webpack搭建项目详解
     http://www.runoob.com/w3cnote/webpack-tutorial.html                                               webpack原理
     http://blog.csdn.net/qq_24122593/article/details/53096437                                         webpack原理
-    https://www.jianshu.com/p/42e11515c10f                                                            webpack入门
-    http://blog.csdn.net/keliyxyz/article/details/51527476                                            Webpack进阶 （Webpack各个配置全解） 
+    https://www.jianshu.com/p/42e11515c10f                                                                    webpack入门
+    http://blog.csdn.net/keliyxyz/article/details/51527476                                                  Webpack进阶 （Webpack各个配置全解） 
     http://www.css88.com/doc/webpack2/configuration/resolve/                                          Webpack进阶 （Webpack各个配置全解，看“第三部分”里的“配置”）
-    https://www.cnblogs.com/samli15999/p/7047968.html                                             externals                                      
+    https://www.cnblogs.com/samli15999/p/7047968.html                                                 externals                                      
   
 
 扫一扫
@@ -165,10 +165,10 @@ es6：
 H5：
 
     https://www.zhihu.com/question/20215561                                                             webstocket
-    http://www.zhangxinxu.com/wordpress/2010/03/every-browser-support-html5-video/                      video
+    http://c7.gg/a4aRy                                                                                                    video
     https://www.zhihu.com/question/36423771                                                             video
-    http://caibaojian.com/video-screenfull.html#10006-weixin-1-52626-6b3bffd01fdde4900130bc5a2751b6d1    video全屏兼容
-    http://www.runoob.com/html/html5-websocket.html                                                     websocket
+    http://c7.gg/a4aQz                                                                                                     video全屏兼容
+    http://www.runoob.com/html/html5-websocket.html                                                websocket
 
 
 object方法属性：
@@ -189,14 +189,14 @@ Function：
 
 jq：
 
-    http://www.w3school.com.cn/jquery/jquery_traversing_descendants.asp                                文档jq
-    http://hemin.cn/jq/index.html                                                                      文档jq
-    http://www.jquery123.com/                                                                          jq
+    http://c7.gg/a4aSb                                                                                                 文档jq
+    http://hemin.cn/jq/index.html                                                                                文档jq
+    http://www.jquery123.com/                                                                                   jq
     http://jquery.com/               
     http://www.codesec.net/view/54614.html                                                             jq选择器
-    http://www.jq-school.com/Article.aspx?page=3                                                       jq插件
-    http://www.jq22.com/                                                                               jq插件
-    http://libs.baidu.com/jquery/2.0.0/jquery.js                                                       jq线上引用地址
+    http://www.jq-school.com/Article.aspx?page=3                                                    jq插件
+    http://www.jq22.com/                                                                                            jq插件
+    http://libs.baidu.com/jquery/2.0.0/jquery.js                                                          jq线上引用地址
 
 
 zepto其他模块：
@@ -265,7 +265,7 @@ react：
     http://blog.csdn.net/adzcsx2/article/details/52993633                                             脚手架yo 
     https://segmentfault.com/a/1190000006055973                                                       脚手架create-react-app 
     http://blog.csdn.net/haoshidai/article/details/52244620                                           es6写法
-    http://618cj.com/react-router4-0%E8%B7%AF%E7%94%B1%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3api/        react-router 4.0中文文档
+    http://c7.gg/a4aTa                                                                                                      react-router 4.0中文文档
     http://blog.csdn.net/sinat_17775997/article/details/77411324                                      react-router 4.0讲解
     http://blog.csdn.net/lihongxun945/article/details/49031383                                        es6导入导出
     https://segmentfault.com/a/1190000003810652                                                       fetch坑
