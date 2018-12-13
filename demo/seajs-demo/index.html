@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>seajs example</title>
+</head>
+<body>
+<h1 id="title">seajs demo</h1>
+<script src="sea-module/sea.js"></script>
+<script>
+    seajs.config({
+        alias:{
+            'list':'../static/list.js',
+            'main':'./static/main.js',
+            'a':'../static/a.js',
+            'b':'../static/b.js'
+
+        },
+
+    });
+    seajs.use(['main'],function(main) {
+      console.log("出main");
+      console.log("入口")
+    });
+
+</script>
+</body>
+</html>
+<!-- 
+d = script {src: "", type: "", noModule: false, charset: "", async: true, …}
+delete -->

@@ -51,6 +51,7 @@ js：
    http://c7.gg/a4aPw                                                                                                        多线程中 堆和栈的区别
    http://c7.gg/a4aPE                                                                                                         内存泄露
    http://blog.csdn.net/bdss58/article/details/51475778                                                   闭包引发的内存泄露
+   https://www.zhihu.com/                                                                                                 闭包执行详解
 
 
 mvvm：
