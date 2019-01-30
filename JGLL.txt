@@ -10,6 +10,10 @@
     https://blog.csdn.net/yanxiaolx/article/details/51763372                                    进程线程
     https://www.jianshu.com/p/b42fd8293b4f                                                        内存中的堆栈和数据结构堆栈区别
     https://blog.csdn.net/wy757510722/article/details/73917007                              计算机网络基础之网络5层结构及对应的协议
+
+
+js运行：
+   https://www.jianshu.com/p/8f19e45fd1f1                                                             js执行上下文
     
    
 
