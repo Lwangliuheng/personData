@@ -14,6 +14,9 @@
 
 js运行：
    https://www.jianshu.com/p/8f19e45fd1f1                                                             js执行上下文
+   https://blog.csdn.net/w2765006513/article/details/53743051                                js运行机制(线程）
+   https://heyingye.github.io/2018/03/19/js引擎的执行过程（一）/                           js引擎的执行过程
+   
     
    
 
