@@ -248,7 +248,7 @@ node.js£∫
     http://nodejs.cn/api/crypto.html                                                                                     node.js
     http://www.runoob.com/nodejs/nodejs-npm.html                                                        node.js
     http://www.w3cschool.cn/nodejs/v9c81itv.html
-    https://www.nodebeginner.org/index-zh-cn.html
+    https://www.nodebeginner.org/index-zh-cn.html                                                          node»Î√≈
 
 npm£∫
 
